@@ -124,8 +124,8 @@
       "model": "http://dataspecer.com/packages/local-root/aaf4ed57-b2ca-44aa-bbc3-e6bc43072729/1efaaceb-7005-4509-afba-46c0b1497ebf",
       "representedEntity": "http://www.w3.org/1999/02/22-rdf-syntax-ns#List",
       "position": {
-        "x": 0,
-        "y": 690,
+        "x": -30,
+        "y": 570,
         "anchored": null
       },
       "content": [],
@@ -230,6 +230,154 @@
         "visual-node"
       ],
       "identifier": "x5clbg"
+    },
+    {
+      "model": "http://dataspecer.com/packages/local-root/aaf4ed57-b2ca-44aa-bbc3-e6bc43072729/98681d64-e292-4dac-ae20-310ac505ac21",
+      "representedEntity": "http://www.w3.org/2004/02/skos/core#Concept",
+      "position": {
+        "x": 220,
+        "y": -500,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "glolu"
+    },
+    {
+      "model": "http://dataspecer.com/packages/local-root/aaf4ed57-b2ca-44aa-bbc3-e6bc43072729/98681d64-e292-4dac-ae20-310ac505ac21",
+      "representedRelationship": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+      "waypoints": [
+        {
+          "x": 100,
+          "y": -490,
+          "anchored": null
+        },
+        {
+          "x": 100,
+          "y": -450,
+          "anchored": null
+        }
+      ],
+      "visualSource": "glolu",
+      "visualTarget": "glolu",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "5eq5jj"
+    },
+    {
+      "model": "http://dataspecer.com/packages/local-root/aaf4ed57-b2ca-44aa-bbc3-e6bc43072729/vocabulary",
+      "representedRelationship": "https://w3id.org/dsv#requirementLevel",
+      "waypoints": [],
+      "visualSource": "h4j4m",
+      "visualTarget": "glolu",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "aypekh"
+    },
+    {
+      "model": "http://dataspecer.com/packages/local-root/aaf4ed57-b2ca-44aa-bbc3-e6bc43072729/vocabulary",
+      "representedRelationship": "https://w3id.org/dsv#cardinality",
+      "waypoints": [],
+      "visualSource": "h4j4m",
+      "visualTarget": "glolu",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "qkof7"
+    },
+    {
+      "model": "http://dataspecer.com/packages/local-root/aaf4ed57-b2ca-44aa-bbc3-e6bc43072729/98681d64-e292-4dac-ae20-310ac505ac21",
+      "representedEntity": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "position": {
+        "x": 220,
+        "y": -1020,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "nkm3yg"
+    },
+    {
+      "model": "http://dataspecer.com/packages/local-root/aaf4ed57-b2ca-44aa-bbc3-e6bc43072729/98681d64-e292-4dac-ae20-310ac505ac21",
+      "representedRelationship": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+      "waypoints": [],
+      "visualSource": "glolu",
+      "visualTarget": "nkm3yg",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "zk69r"
+    },
+    {
+      "model": "http://dataspecer.com/packages/local-root/aaf4ed57-b2ca-44aa-bbc3-e6bc43072729/98681d64-e292-4dac-ae20-310ac505ac21",
+      "representedRelationship": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+      "waypoints": [],
+      "visualSource": "nkm3yg",
+      "visualTarget": "glolu",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "0h2me"
+    },
+    {
+      "model": "http://dataspecer.com/packages/local-root/aaf4ed57-b2ca-44aa-bbc3-e6bc43072729/98681d64-e292-4dac-ae20-310ac505ac21",
+      "representedEntity": "http://www.w3.org/2004/02/skos/core#Collection",
+      "position": {
+        "x": 640,
+        "y": 250,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "2baqmj"
+    },
+    {
+      "model": "http://dataspecer.com/packages/local-root/aaf4ed57-b2ca-44aa-bbc3-e6bc43072729/98681d64-e292-4dac-ae20-310ac505ac21",
+      "representedEntity": "http://www.w3.org/2004/02/skos/core#OrderedCollection",
+      "position": {
+        "x": 450,
+        "y": 570,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "bh7fz"
+    },
+    {
+      "model": "http://dataspecer.com/packages/local-root/aaf4ed57-b2ca-44aa-bbc3-e6bc43072729/98681d64-e292-4dac-ae20-310ac505ac21",
+      "representedRelationship": "https://dataspecer.com/semantic-models/generalizationfromIri=http%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23OrderedCollection&toIri=http%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23Collection",
+      "waypoints": [],
+      "visualSource": "bh7fz",
+      "visualTarget": "2baqmj",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "dwlg3"
+    },
+    {
+      "model": "http://dataspecer.com/packages/local-root/aaf4ed57-b2ca-44aa-bbc3-e6bc43072729/98681d64-e292-4dac-ae20-310ac505ac21",
+      "representedRelationship": "http://www.w3.org/2004/02/skos/core#memberList",
+      "waypoints": [],
+      "visualSource": "bh7fz",
+      "visualTarget": "h5obb",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "euydh"
     }
   ]
 }

@@ -1842,18 +1842,7 @@
     {
       "model": "t3are",
       "representedRelationship": "movs3f3wlu8mnxnnps0",
-      "waypoints": [
-        {
-          "x": 280,
-          "y": -840,
-          "anchored": null
-        },
-        {
-          "x": 280,
-          "y": -800,
-          "anchored": null
-        }
-      ],
+      "waypoints": [],
       "visualSource": "ysn4g",
       "visualTarget": "ysn4g",
       "type": [
@@ -1912,6 +1901,51 @@
         "visual-relationship"
       ],
       "identifier": "4d8um"
+    },
+    {
+      "type": [
+        "http://dataspecer.com/resources/local/visual-model"
+      ],
+      "representedModel": "tk2bqi",
+      "color": "#ffb770",
+      "identifier": "xel5y"
+    },
+    {
+      "model": "tk2bqi",
+      "representedEntity": "http://data.europa.eu/m8g/AdminUnit",
+      "position": {
+        "x": 740,
+        "y": -1200,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "gkhaa"
+    },
+    {
+      "model": "tk2bqi",
+      "representedRelationship": "http://data.europa.eu/m8g/level",
+      "waypoints": [],
+      "visualSource": "gkhaa",
+      "visualTarget": "glolu",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "fi0jx"
+    },
+    {
+      "model": "tk2bqi",
+      "representedRelationship": "http://data.europa.eu/m8g/code",
+      "waypoints": [],
+      "visualSource": "gkhaa",
+      "visualTarget": "glolu",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "fi3lf"
     }
   ]
 }

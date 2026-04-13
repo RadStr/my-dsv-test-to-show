@@ -1,0 +1,19 @@
+{
+  "iri": "t3are",
+  "projectIri": "19b56387-a5e5-410c-9f85-d3785626100a",
+  "types": [
+    "http://dataspecer.com/resources/local/semantic-model"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "dcat"
+    }
+  },
+  "metadata": {
+    "creationDate": "2026-04-13T20:39:03.650Z",
+    "modificationDate": "2026-04-13T20:41:20.470Z"
+  },
+  "_version": 1,
+  "_exportVersion": 2,
+  "_exportedBy": "http://localhost:3100"
+}

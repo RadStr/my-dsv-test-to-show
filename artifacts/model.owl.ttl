@@ -139,9 +139,25 @@
     rdfs:comment "A Vocabulary Specification Document is a human-readable representation of a Vocabulary."@en;
     rdfs:isDefinedBy <https://w3id.org/dsv#>;
     rdfs:subClassOf owl:Thing, prof:ResourceDescriptor.
+:juicyPlace a owl:Class, rdfs:Class;
+    rdfs:label "Juicy Place"@en;
+    rdfs:isDefinedBy <https://w3id.org/dsv#>.
+:lovelyTeam a owl:Class, rdfs:Class;
+    rdfs:label "Lovely Team"@en;
+    rdfs:isDefinedBy <https://w3id.org/dsv#>.
 :externalDocumentation a rdf:Property, owl:ObjectProperty;
     rdfs:label "external documentation"@en;
     rdfs:comment "Link to an external documentation of this resource. Profiles of this resource should preferably link to this URL for documentation."@en;
     rdfs:isDefinedBy <https://w3id.org/dsv#>;
     rdfs:domain rdfs:Resource;
     rdfs:range rdfs:Resource.
+:littleGovernment a rdf:Property, owl:ObjectProperty;
+    rdfs:label "Little Government"@en;
+    rdfs:isDefinedBy <https://w3id.org/dsv#>;
+    rdfs:domain <lxx4di3pxjlmnxnnj5t>;
+    rdfs:range :lovelyTeam.
+:horrificEducation a rdf:Property, owl:ObjectProperty;
+    rdfs:label "Horrific Education"@en;
+    rdfs:isDefinedBy <https://w3id.org/dsv#>;
+    rdfs:domain <lxx4di3pxjlmnxnnj5t>;
+    rdfs:range :juicyPlace.

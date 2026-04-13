@@ -8,7 +8,7 @@
     <meta name="color-scheme" content="light dark">
     <script type="application/ld+json">
       {
-      "@id": "https://w3id.org/dsv/",
+      "@id": "https://example.com/t3are",
       "@type": [
         "dsv:VocabularySpecificationDocument",
         "adms:AssetDistribution",
@@ -18,6 +18,107 @@
       "hasRole": "role:specification",
       "format": "filetype:HTML",
       "inSpecificationOf": [
+        {
+          "@id": "https://example.com/t3are/#",
+          "@type": [
+            "owl:Ontology",
+            "prof:Profile"
+          ],
+          "title": {
+            "en": "RaSt"
+          },
+          "description": {
+            "en": "This specification defines terms needed to describe application profiles,"
+          },
+          "isProfileOf": [
+            {
+              "title": {
+                "en": "prof"
+              },
+              "hasResource": {
+                "hasArtifact": "https://www.w3.org/TR/dx-prof/rdf/prof.ttl"
+              }
+            },
+            {
+              "title": {
+                "en": "owl"
+              },
+              "hasResource": {
+                "hasArtifact": "https://www.w3.org/2002/07/owl"
+              }
+            },
+            {
+              "title": {
+                "en": "rdf"
+              },
+              "hasResource": {
+                "hasArtifact": "https://datagov-cz.github.io/cache-slovniku/rdf.ttl"
+              }
+            },
+            {
+              "title": {
+                "en": "dublin_core_terms"
+              },
+              "hasResource": {
+                "hasArtifact": "https://datagov-cz.github.io/cache-slovniku/dublin_core_terms.ttl"
+              }
+            },
+            {
+              "title": {
+                "en": "rdfs"
+              },
+              "hasResource": {
+                "hasArtifact": "https://datagov-cz.github.io/cache-slovniku/rdfs.ttl"
+              }
+            },
+            {
+              "title": {
+                "en": "skos"
+              },
+              "hasResource": {
+                "hasArtifact": "https://datagov-cz.github.io/cache-slovniku/skos.rdf"
+              }
+            }
+          ],
+          "hasResource": [
+            {
+              "@id": "https://example.com/t3are#spec",
+              "@type": [
+                "adms:AssetDistribution",
+                "prof:ResourceDescriptor"
+              ],
+              "hasArtifact": "https://mff-uk.github.io/data-specification-vocabulary/dsv/model.owl.ttl",
+              "hasRole": "role:vocabulary",
+              "format": "filetype:RDF_TURTLE",
+              "conformsTo": [
+                "http://www.w3.org/2000/01/rdf-schema#",
+                "http://www.w3.org/2002/07/owl"
+              ]
+            },
+            {
+              "@id": "https://example.com/t3are#a1173b64-79c6-4887-933d-bb47a89cc3d1",
+              "@type": [
+                "adms:AssetDistribution",
+                "prof:ResourceDescriptor"
+              ],
+              "hasArtifact": "https://mff-uk.github.io/data-specification-vocabulary/dsv/a1173b64-79c6-4887-933d-bb47a89cc3d1.svg",
+              "hasRole": "role:guidance",
+              "format": "filetype:SVG",
+              "conformsTo": "https://www.w3.org/TR/SVG/"
+            },
+            {
+              "@id": "https://example.com/t3are",
+              "@type": [
+                "dsv:VocabularySpecificationDocument",
+                "adms:AssetDistribution",
+                "prof:ResourceDescriptor"
+              ],
+              "hasArtifact": "https://mff-uk.github.io/data-specification-vocabulary/dsv/cs/",
+              "hasRole": "role:specification",
+              "format": "filetype:HTML"
+            }
+          ]
+        },
         {
           "@id": "https://w3id.org/dsv#",
           "@type": [
@@ -82,7 +183,7 @@
           ],
           "hasResource": [
             {
-              "@id": "https://w3id.org/dsv/#spec",
+              "@id": "https://example.com/t3are#spec",
               "@type": [
                 "adms:AssetDistribution",
                 "prof:ResourceDescriptor"
@@ -96,7 +197,7 @@
               ]
             },
             {
-              "@id": "https://w3id.org/dsv/#a1173b64-79c6-4887-933d-bb47a89cc3d1",
+              "@id": "https://example.com/t3are#a1173b64-79c6-4887-933d-bb47a89cc3d1",
               "@type": [
                 "adms:AssetDistribution",
                 "prof:ResourceDescriptor"
@@ -107,7 +208,7 @@
               "conformsTo": "https://www.w3.org/TR/SVG/"
             },
             {
-              "@id": "https://w3id.org/dsv/",
+              "@id": "https://example.com/t3are",
               "@type": [
                 "dsv:VocabularySpecificationDocument",
                 "adms:AssetDistribution",
@@ -290,7 +391,7 @@
       <p>
       Tento soubor dokumentuje
       <strong>RaSt</strong> (@en).</p>
-    </section>
+    </section>abcewr
     <section>
       <h2>Úvod</h2>
       <p>Toto je úvod</p>
@@ -333,6 +434,32 @@
                   <td><a href="http://www.w3.org/ns/dx/prof/ResourceDescriptor">Resource Descriptor (@en)</a></td>
                 </tr>
               </table>
+            </section>            <section id="brightLaw">
+              <h4>Bright Law (@en)</h4>
+            
+              <table class="def">
+                <tr>
+                  <td>IRI</td>
+                  <td><a href="https://example.com/t3are/#brightLaw">dcat:brightLaw</a></td>
+                </tr>
+                <tr>
+                  <td>Název</td>
+                  <td>Bright Law (@en)</td>
+                </tr>
+              </table>
+            </section>            <section id="juicyPlace">
+              <h4>Juicy Place (@en)</h4>
+            
+              <table class="def">
+                <tr>
+                  <td>IRI</td>
+                  <td><a href="https://w3id.org/dsv#juicyPlace">dsv:juicyPlace</a></td>
+                </tr>
+                <tr>
+                  <td>Název</td>
+                  <td>Juicy Place (@en)</td>
+                </tr>
+              </table>
             </section>            <section id="ApplicationProfile">
               <h4>Konceptuální model</h4>
             
@@ -348,6 +475,19 @@
                 <tr>
                   <td>Definice</td>
                   <td>Konceptuální model obsahující profily tříd a vlastností různých slovníků.</td>
+                </tr>
+              </table>
+            </section>            <section id="lovelyTeam">
+              <h4>Lovely Team (@en)</h4>
+            
+              <table class="def">
+                <tr>
+                  <td>IRI</td>
+                  <td><a href="https://w3id.org/dsv#lovelyTeam">dsv:lovelyTeam</a></td>
+                </tr>
+                <tr>
+                  <td>Název</td>
+                  <td>Lovely Team (@en)</td>
                 </tr>
               </table>
             </section>            <section id="InvalidTermProfile">
@@ -659,6 +799,35 @@
                   </td>
                   </tr>
               </table>
+            </section>            <section id="horrificEducation">
+              <h4>Horrific Education (@en)</h4>
+            
+              <table class="def">
+                <tr>
+                  <td>IRI</td>
+                  <td><a href="https://w3id.org/dsv#horrificEducation">dsv:horrificEducation</a></td>
+                </tr>
+                <tr>
+                  <td>Název</td>
+                  <td>Horrific Education (@en)</td>
+                </tr>
+                <tr>
+                  <td>Definiční obor</td>
+                  <td>
+                    <a href="#brightLaw">Bright Law (@en)</a>
+            
+                    
+                  </td>
+                </tr>
+                <tr>
+                  <td>Obor hodnot</td>
+                  <td>
+                    <a href="#juicyPlace">Juicy Place (@en)</a>
+            
+                    
+                  </td>
+                  </tr>
+              </table>
             </section>            <section id="cardinality">
               <h4>kardinalita</h4>
             
@@ -690,6 +859,35 @@
             
                         [0..*]
             
+                  </td>
+                  </tr>
+              </table>
+            </section>            <section id="littleGovernment">
+              <h4>Little Government (@en)</h4>
+            
+              <table class="def">
+                <tr>
+                  <td>IRI</td>
+                  <td><a href="https://w3id.org/dsv#littleGovernment">dsv:littleGovernment</a></td>
+                </tr>
+                <tr>
+                  <td>Název</td>
+                  <td>Little Government (@en)</td>
+                </tr>
+                <tr>
+                  <td>Definiční obor</td>
+                  <td>
+                    <a href="#brightLaw">Bright Law (@en)</a>
+            
+                    
+                  </td>
+                </tr>
+                <tr>
+                  <td>Obor hodnot</td>
+                  <td>
+                    <a href="#lovelyTeam">Lovely Team (@en)</a>
+            
+                    
                   </td>
                   </tr>
               </table>
@@ -1033,6 +1231,35 @@
                   </td>
                   </tr>
               </table>
+            </section>            <section id="tightLaw">
+              <h4>Tight Law (@en)</h4>
+            
+              <table class="def">
+                <tr>
+                  <td>IRI</td>
+                  <td><a href="https://example.com/t3are/#tightLaw">dcat:tightLaw</a></td>
+                </tr>
+                <tr>
+                  <td>Název</td>
+                  <td>Tight Law (@en)</td>
+                </tr>
+                <tr>
+                  <td>Definiční obor</td>
+                  <td>
+                    <a href="#brightLaw">Bright Law (@en)</a>
+            
+                    
+                  </td>
+                </tr>
+                <tr>
+                  <td>Obor hodnot</td>
+                  <td>
+                    <a href="#brightLaw">Bright Law (@en)</a>
+            
+                    
+                  </td>
+                  </tr>
+              </table>
             </section>      </section>
 
 
@@ -1042,6 +1269,7 @@
         <thead><tr><th>Prefix</th><th>Namespace IRI</th></tr></thead>
         <tbody>
             <tr><td><code>dsv</code></td><td><a href="https://w3id.org/dsv#"><code>https://w3id.org/dsv#</code></a></td></tr>
+            <tr><td><code>dcat</code></td><td><a href="https://example.com/t3are/#"><code>https://example.com/t3are/#</code></a></td></tr>
         </tbody>
       </table>
     </section>

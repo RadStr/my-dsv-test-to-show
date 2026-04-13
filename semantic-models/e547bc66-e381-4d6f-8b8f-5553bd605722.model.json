@@ -823,6 +823,84 @@
       ],
       "child": "https://w3id.org/dsv#VocabularySpecificationDocument",
       "parent": "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "zlh66u4snq8mnxnnsdh": {
+      "iri": "lovelyTeam",
+      "name": {
+        "en": "Lovely Team"
+      },
+      "description": {},
+      "externalDocumentationUrl": null,
+      "id": "zlh66u4snq8mnxnnsdh",
+      "type": [
+        "class"
+      ]
+    },
+    "dy4on8kfcwmnxnnsdw": {
+      "ends": [
+        {
+          "iri": null,
+          "name": {},
+          "description": {},
+          "concept": "lxx4di3pxjlmnxnnj5t",
+          "externalDocumentationUrl": null
+        },
+        {
+          "name": {
+            "en": "Little Government"
+          },
+          "description": {},
+          "concept": "zlh66u4snq8mnxnnsdh",
+          "iri": "littleGovernment",
+          "externalDocumentationUrl": ""
+        }
+      ],
+      "id": "dy4on8kfcwmnxnnsdw",
+      "type": [
+        "relationship"
+      ],
+      "iri": null,
+      "name": {},
+      "description": {}
+    },
+    "u2e3j7kphcmnxnny41": {
+      "iri": "juicyPlace",
+      "name": {
+        "en": "Juicy Place"
+      },
+      "description": {},
+      "externalDocumentationUrl": null,
+      "id": "u2e3j7kphcmnxnny41",
+      "type": [
+        "class"
+      ]
+    },
+    "z38fzpobi7mnxnny4g": {
+      "ends": [
+        {
+          "iri": null,
+          "name": {},
+          "description": {},
+          "concept": "lxx4di3pxjlmnxnnj5t",
+          "externalDocumentationUrl": null
+        },
+        {
+          "name": {
+            "en": "Horrific Education"
+          },
+          "description": {},
+          "concept": "u2e3j7kphcmnxnny41",
+          "iri": "horrificEducation",
+          "externalDocumentationUrl": ""
+        }
+      ],
+      "id": "z38fzpobi7mnxnny4g",
+      "type": [
+        "relationship"
+      ],
+      "iri": null,
+      "name": {},
+      "description": {}
     }
   }
 }

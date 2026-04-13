@@ -1815,6 +1815,103 @@
         "visual-node"
       ],
       "identifier": "fhmyvi"
+    },
+    {
+      "type": [
+        "http://dataspecer.com/resources/local/visual-model"
+      ],
+      "representedModel": "c30cbddd-f9bf-44f7-9fd8-cd61515992bc",
+      "color": "#8fab5c",
+      "identifier": "l7jny"
+    },
+    {
+      "model": "c30cbddd-f9bf-44f7-9fd8-cd61515992bc",
+      "representedEntity": "lxx4di3pxjlmnxnnj5t",
+      "position": {
+        "x": 350,
+        "y": -810,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "ysn4g"
+    },
+    {
+      "model": "c30cbddd-f9bf-44f7-9fd8-cd61515992bc",
+      "representedRelationship": "movs3f3wlu8mnxnnps0",
+      "waypoints": [
+        {
+          "x": 280,
+          "y": -840,
+          "anchored": null
+        },
+        {
+          "x": 280,
+          "y": -800,
+          "anchored": null
+        }
+      ],
+      "visualSource": "ysn4g",
+      "visualTarget": "ysn4g",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "qb0hvl"
+    },
+    {
+      "model": "http://dataspecer.com/packages/local-root/aaf4ed57-b2ca-44aa-bbc3-e6bc43072729/vocabulary",
+      "representedEntity": "zlh66u4snq8mnxnnsdh",
+      "position": {
+        "x": 960,
+        "y": -790,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "ia13c"
+    },
+    {
+      "model": "http://dataspecer.com/packages/local-root/aaf4ed57-b2ca-44aa-bbc3-e6bc43072729/vocabulary",
+      "representedRelationship": "dy4on8kfcwmnxnnsdw",
+      "waypoints": [],
+      "visualSource": "ysn4g",
+      "visualTarget": "ia13c",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "joa8w"
+    },
+    {
+      "model": "http://dataspecer.com/packages/local-root/aaf4ed57-b2ca-44aa-bbc3-e6bc43072729/vocabulary",
+      "representedEntity": "u2e3j7kphcmnxnny41",
+      "position": {
+        "x": 1120,
+        "y": -890,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "nz11pl"
+    },
+    {
+      "model": "http://dataspecer.com/packages/local-root/aaf4ed57-b2ca-44aa-bbc3-e6bc43072729/vocabulary",
+      "representedRelationship": "z38fzpobi7mnxnny4g",
+      "waypoints": [],
+      "visualSource": "ysn4g",
+      "visualTarget": "nz11pl",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "4d8um"
     }
   ]
 }

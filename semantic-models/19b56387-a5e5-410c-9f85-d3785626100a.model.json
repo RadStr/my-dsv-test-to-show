@@ -1,0 +1,47 @@
+{
+  "type": "http://dataspecer.com/resources/local/semantic-model",
+  "modelId": "c30cbddd-f9bf-44f7-9fd8-cd61515992bc",
+  "modelAlias": "dcat",
+  "baseIri": "https://example.com/t3are/#",
+  "entities": {
+    "lxx4di3pxjlmnxnnj5t": {
+      "iri": "brightLaw",
+      "name": {
+        "en": "Bright Law"
+      },
+      "description": {},
+      "externalDocumentationUrl": null,
+      "id": "lxx4di3pxjlmnxnnj5t",
+      "type": [
+        "class"
+      ]
+    },
+    "movs3f3wlu8mnxnnps0": {
+      "ends": [
+        {
+          "iri": null,
+          "name": {},
+          "description": {},
+          "concept": "lxx4di3pxjlmnxnnj5t",
+          "externalDocumentationUrl": null
+        },
+        {
+          "name": {
+            "en": "Tight Law"
+          },
+          "description": {},
+          "concept": "lxx4di3pxjlmnxnnj5t",
+          "iri": "tightLaw",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "movs3f3wlu8mnxnnps0",
+      "type": [
+        "relationship"
+      ],
+      "iri": null,
+      "name": {},
+      "description": {}
+    }
+  }
+}

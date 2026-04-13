@@ -1,0 +1,19 @@
+{
+  "iri": "4f244a33-4dc3-4a5c-9c2c-7b7d6a049451",
+  "projectIri": "2ae46d41-870a-490b-bfae-caa22e0d738d",
+  "types": [
+    "https://dataspecer.com/core/model-descriptor/pim-store-wrapper"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "Core Location Vocabulary 2.1.0"
+    }
+  },
+  "metadata": {
+    "creationDate": "2026-04-13T20:56:42.915Z",
+    "modificationDate": "2026-04-13T20:56:57.074Z"
+  },
+  "_version": 1,
+  "_exportVersion": 2,
+  "_exportedBy": "http://localhost:3100"
+}
